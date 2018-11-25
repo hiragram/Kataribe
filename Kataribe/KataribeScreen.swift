@@ -18,7 +18,7 @@ public protocol KataribeArgument {
     static func `default`() -> Self
 }
 
-public protocol DynamicScreen: KataribeScreen {
+public protocol DynamicScreen {
     associatedtype Argument
 
     static func mock(argument: Argument) -> Self

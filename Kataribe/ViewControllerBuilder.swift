@@ -18,7 +18,7 @@ public struct DynamicViewControllerBuilder<ViewController: UIViewController & Dy
     private let argument: ViewController.Argument
     public let displayName: String
 
-    init(argument: ViewController.Argument, displayName: String) {
+    public init(argument: ViewController.Argument, displayName: String) {
         self.argument = argument
         self.displayName = displayName
     }
