@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		607A0DCB21AA529100F6904F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607A0DCA21AA529100F6904F /* AppDelegate.swift */; };
-		607A0DCD21AA529100F6904F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607A0DCC21AA529100F6904F /* ViewController.swift */; };
-		607A0DD021AA529100F6904F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607A0DCE21AA529100F6904F /* Main.storyboard */; };
 		607A0DD221AA529200F6904F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607A0DD121AA529200F6904F /* Assets.xcassets */; };
 		607A0DD521AA529200F6904F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607A0DD321AA529200F6904F /* LaunchScreen.storyboard */; };
 		607A0DE321AA52EE00F6904F /* Kataribe.h in Headers */ = {isa = PBXBuildFile; fileRef = 607A0DE121AA52EE00F6904F /* Kataribe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		607A0DE621AA52EE00F6904F /* Kataribe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607A0DDF21AA52EE00F6904F /* Kataribe.framework */; };
 		607A0DE721AA52EE00F6904F /* Kataribe.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 607A0DDF21AA52EE00F6904F /* Kataribe.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		607A0DEF21AA5C0F00F6904F /* ScreenListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607A0DEE21AA5C0F00F6904F /* ScreenListViewController.swift */; };
+		607A0DF121AA5C9B00F6904F /* KataribeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607A0DF021AA5C9B00F6904F /* KataribeScreen.swift */; };
+		607A0DF321AA675900F6904F /* ScreenListSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607A0DF221AA675900F6904F /* ScreenListSource.swift */; };
+		607A0DF521AA680000F6904F /* ExampleScreenListSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607A0DF421AA680000F6904F /* ExampleScreenListSource.swift */; };
+		607A0DF921AA68AC00F6904F /* StaticContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607A0DF821AA68AC00F6904F /* StaticContentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,14 +47,17 @@
 /* Begin PBXFileReference section */
 		607A0DC821AA529100F6904F /* Kataribe-Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kataribe-Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607A0DCA21AA529100F6904F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607A0DCC21AA529100F6904F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607A0DCF21AA529100F6904F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607A0DD121AA529200F6904F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		607A0DD421AA529200F6904F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		607A0DD621AA529200F6904F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607A0DDF21AA52EE00F6904F /* Kataribe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kataribe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607A0DE121AA52EE00F6904F /* Kataribe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Kataribe.h; sourceTree = "<group>"; };
 		607A0DE221AA52EE00F6904F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		607A0DEE21AA5C0F00F6904F /* ScreenListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenListViewController.swift; sourceTree = "<group>"; };
+		607A0DF021AA5C9B00F6904F /* KataribeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KataribeScreen.swift; sourceTree = "<group>"; };
+		607A0DF221AA675900F6904F /* ScreenListSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenListSource.swift; sourceTree = "<group>"; };
+		607A0DF421AA680000F6904F /* ExampleScreenListSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleScreenListSource.swift; sourceTree = "<group>"; };
+		607A0DF821AA68AC00F6904F /* StaticContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticContentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				607A0DCA21AA529100F6904F /* AppDelegate.swift */,
-				607A0DCC21AA529100F6904F /* ViewController.swift */,
-				607A0DCE21AA529100F6904F /* Main.storyboard */,
+				607A0DF621AA688500F6904F /* Example */,
 				607A0DD121AA529200F6904F /* Assets.xcassets */,
 				607A0DD321AA529200F6904F /* LaunchScreen.storyboard */,
 				607A0DD621AA529200F6904F /* Info.plist */,
@@ -109,8 +114,28 @@
 			children = (
 				607A0DE121AA52EE00F6904F /* Kataribe.h */,
 				607A0DE221AA52EE00F6904F /* Info.plist */,
+				607A0DEE21AA5C0F00F6904F /* ScreenListViewController.swift */,
+				607A0DF221AA675900F6904F /* ScreenListSource.swift */,
+				607A0DF021AA5C9B00F6904F /* KataribeScreen.swift */,
 			);
 			path = Kataribe;
+			sourceTree = "<group>";
+		};
+		607A0DF621AA688500F6904F /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				607A0DF421AA680000F6904F /* ExampleScreenListSource.swift */,
+				607A0DF721AA689100F6904F /* Screen */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		607A0DF721AA689100F6904F /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				607A0DF821AA68AC00F6904F /* StaticContentViewController.swift */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +204,7 @@
 					};
 					607A0DDE21AA52EE00F6904F = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -208,7 +234,6 @@
 			files = (
 				607A0DD521AA529200F6904F /* LaunchScreen.storyboard in Resources */,
 				607A0DD221AA529200F6904F /* Assets.xcassets in Resources */,
-				607A0DD021AA529100F6904F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,8 +251,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607A0DCD21AA529100F6904F /* ViewController.swift in Sources */,
 				607A0DCB21AA529100F6904F /* AppDelegate.swift in Sources */,
+				607A0DF521AA680000F6904F /* ExampleScreenListSource.swift in Sources */,
+				607A0DF921AA68AC00F6904F /* StaticContentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +261,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				607A0DF321AA675900F6904F /* ScreenListSource.swift in Sources */,
+				607A0DF121AA5C9B00F6904F /* KataribeScreen.swift in Sources */,
+				607A0DEF21AA5C0F00F6904F /* ScreenListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,14 +278,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607A0DCE21AA529100F6904F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607A0DCF21AA529100F6904F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		607A0DD321AA529200F6904F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -387,6 +408,7 @@
 		607A0DD821AA529200F6904F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Kataribe-Viewer/Info.plist";
@@ -404,6 +426,7 @@
 		607A0DD921AA529200F6904F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Kataribe-Viewer/Info.plist";
@@ -421,6 +444,7 @@
 		607A0DE921AA52EE00F6904F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -438,6 +462,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.yura.Kataribe;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -448,6 +473,7 @@
 		607A0DEA21AA52EE00F6904F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
