@@ -12,7 +12,34 @@
 		607A0DD021AA529100F6904F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607A0DCE21AA529100F6904F /* Main.storyboard */; };
 		607A0DD221AA529200F6904F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607A0DD121AA529200F6904F /* Assets.xcassets */; };
 		607A0DD521AA529200F6904F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607A0DD321AA529200F6904F /* LaunchScreen.storyboard */; };
+		607A0DE321AA52EE00F6904F /* Kataribe.h in Headers */ = {isa = PBXBuildFile; fileRef = 607A0DE121AA52EE00F6904F /* Kataribe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		607A0DE621AA52EE00F6904F /* Kataribe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607A0DDF21AA52EE00F6904F /* Kataribe.framework */; };
+		607A0DE721AA52EE00F6904F /* Kataribe.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 607A0DDF21AA52EE00F6904F /* Kataribe.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		607A0DE421AA52EE00F6904F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607A0DA721AA50E600F6904F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 607A0DDE21AA52EE00F6904F;
+			remoteInfo = Kataribe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		607A0DEB21AA52EE00F6904F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				607A0DE721AA52EE00F6904F /* Kataribe.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		607A0DC821AA529100F6904F /* Kataribe-Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kataribe-Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,10 +49,21 @@
 		607A0DD121AA529200F6904F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		607A0DD421AA529200F6904F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		607A0DD621AA529200F6904F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		607A0DDF21AA52EE00F6904F /* Kataribe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kataribe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		607A0DE121AA52EE00F6904F /* Kataribe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Kataribe.h; sourceTree = "<group>"; };
+		607A0DE221AA52EE00F6904F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		607A0DC521AA529100F6904F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607A0DE621AA52EE00F6904F /* Kataribe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607A0DDC21AA52EE00F6904F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				607A0DC921AA529100F6904F /* Kataribe-Viewer */,
+				607A0DE021AA52EE00F6904F /* Kataribe */,
 				607A0DB021AA50E600F6904F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				607A0DC821AA529100F6904F /* Kataribe-Viewer.app */,
+				607A0DDF21AA52EE00F6904F /* Kataribe.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,7 +104,27 @@
 			path = "Kataribe-Viewer";
 			sourceTree = "<group>";
 		};
+		607A0DE021AA52EE00F6904F /* Kataribe */ = {
+			isa = PBXGroup;
+			children = (
+				607A0DE121AA52EE00F6904F /* Kataribe.h */,
+				607A0DE221AA52EE00F6904F /* Info.plist */,
+			);
+			path = Kataribe;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		607A0DDA21AA52EE00F6904F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607A0DE321AA52EE00F6904F /* Kataribe.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		607A0DC721AA529100F6904F /* Kataribe-Viewer */ = {
@@ -74,15 +134,35 @@
 				607A0DC421AA529100F6904F /* Sources */,
 				607A0DC521AA529100F6904F /* Frameworks */,
 				607A0DC621AA529100F6904F /* Resources */,
+				607A0DEB21AA52EE00F6904F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				607A0DE521AA52EE00F6904F /* PBXTargetDependency */,
 			);
 			name = "Kataribe-Viewer";
 			productName = "Kataribe-Viewer";
 			productReference = 607A0DC821AA529100F6904F /* Kataribe-Viewer.app */;
 			productType = "com.apple.product-type.application";
+		};
+		607A0DDE21AA52EE00F6904F /* Kataribe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 607A0DE821AA52EE00F6904F /* Build configuration list for PBXNativeTarget "Kataribe" */;
+			buildPhases = (
+				607A0DDA21AA52EE00F6904F /* Headers */,
+				607A0DDB21AA52EE00F6904F /* Sources */,
+				607A0DDC21AA52EE00F6904F /* Frameworks */,
+				607A0DDD21AA52EE00F6904F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kataribe;
+			productName = Kataribe;
+			productReference = 607A0DDF21AA52EE00F6904F /* Kataribe.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -95,6 +175,9 @@
 				ORGANIZATIONNAME = "Yuya Hirayama";
 				TargetAttributes = {
 					607A0DC721AA529100F6904F = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					607A0DDE21AA52EE00F6904F = {
 						CreatedOnToolsVersion = 10.0;
 					};
 				};
@@ -113,6 +196,7 @@
 			projectRoot = "";
 			targets = (
 				607A0DC721AA529100F6904F /* Kataribe-Viewer */,
+				607A0DDE21AA52EE00F6904F /* Kataribe */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +212,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		607A0DDD21AA52EE00F6904F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -140,7 +231,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		607A0DDB21AA52EE00F6904F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		607A0DE521AA52EE00F6904F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 607A0DDE21AA52EE00F6904F /* Kataribe */;
+			targetProxy = 607A0DE421AA52EE00F6904F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		607A0DCE21AA529100F6904F /* Main.storyboard */ = {
@@ -312,6 +418,60 @@
 			};
 			name = Release;
 		};
+		607A0DE921AA52EE00F6904F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Kataribe/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.yura.Kataribe;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		607A0DEA21AA52EE00F6904F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Kataribe/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.yura.Kataribe;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -329,6 +489,15 @@
 			buildConfigurations = (
 				607A0DD821AA529200F6904F /* Debug */,
 				607A0DD921AA529200F6904F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		607A0DE821AA52EE00F6904F /* Build configuration list for PBXNativeTarget "Kataribe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607A0DE921AA52EE00F6904F /* Debug */,
+				607A0DEA21AA52EE00F6904F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
