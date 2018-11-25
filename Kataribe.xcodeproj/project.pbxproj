@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		607A0DB321AA50E600F6904F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607A0DB221AA50E600F6904F /* AppDelegate.swift */; };
-		607A0DB521AA50E600F6904F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607A0DB421AA50E600F6904F /* ViewController.swift */; };
-		607A0DB821AA50E600F6904F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607A0DB621AA50E600F6904F /* Main.storyboard */; };
-		607A0DBA21AA50E700F6904F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607A0DB921AA50E700F6904F /* Assets.xcassets */; };
-		607A0DBD21AA50E700F6904F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607A0DBB21AA50E700F6904F /* LaunchScreen.storyboard */; };
+		607A0DCB21AA529100F6904F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607A0DCA21AA529100F6904F /* AppDelegate.swift */; };
+		607A0DCD21AA529100F6904F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607A0DCC21AA529100F6904F /* ViewController.swift */; };
+		607A0DD021AA529100F6904F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607A0DCE21AA529100F6904F /* Main.storyboard */; };
+		607A0DD221AA529200F6904F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607A0DD121AA529200F6904F /* Assets.xcassets */; };
+		607A0DD521AA529200F6904F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607A0DD321AA529200F6904F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		607A0DAF21AA50E600F6904F /* Kataribe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kataribe.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		607A0DB221AA50E600F6904F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607A0DB421AA50E600F6904F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607A0DB721AA50E600F6904F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		607A0DB921AA50E700F6904F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		607A0DBC21AA50E700F6904F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		607A0DBE21AA50E700F6904F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		607A0DC821AA529100F6904F /* Kataribe-Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kataribe-Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		607A0DCA21AA529100F6904F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		607A0DCC21AA529100F6904F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		607A0DCF21AA529100F6904F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		607A0DD121AA529200F6904F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		607A0DD421AA529200F6904F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		607A0DD621AA529200F6904F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		607A0DAC21AA50E600F6904F /* Frameworks */ = {
+		607A0DC521AA529100F6904F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,7 +38,7 @@
 		607A0DA621AA50E600F6904F = {
 			isa = PBXGroup;
 			children = (
-				607A0DB121AA50E600F6904F /* Kataribe */,
+				607A0DC921AA529100F6904F /* Kataribe-Viewer */,
 				607A0DB021AA50E600F6904F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,42 +46,42 @@
 		607A0DB021AA50E600F6904F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607A0DAF21AA50E600F6904F /* Kataribe.app */,
+				607A0DC821AA529100F6904F /* Kataribe-Viewer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		607A0DB121AA50E600F6904F /* Kataribe */ = {
+		607A0DC921AA529100F6904F /* Kataribe-Viewer */ = {
 			isa = PBXGroup;
 			children = (
-				607A0DB221AA50E600F6904F /* AppDelegate.swift */,
-				607A0DB421AA50E600F6904F /* ViewController.swift */,
-				607A0DB621AA50E600F6904F /* Main.storyboard */,
-				607A0DB921AA50E700F6904F /* Assets.xcassets */,
-				607A0DBB21AA50E700F6904F /* LaunchScreen.storyboard */,
-				607A0DBE21AA50E700F6904F /* Info.plist */,
+				607A0DCA21AA529100F6904F /* AppDelegate.swift */,
+				607A0DCC21AA529100F6904F /* ViewController.swift */,
+				607A0DCE21AA529100F6904F /* Main.storyboard */,
+				607A0DD121AA529200F6904F /* Assets.xcassets */,
+				607A0DD321AA529200F6904F /* LaunchScreen.storyboard */,
+				607A0DD621AA529200F6904F /* Info.plist */,
 			);
-			path = Kataribe;
+			path = "Kataribe-Viewer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607A0DAE21AA50E600F6904F /* Kataribe */ = {
+		607A0DC721AA529100F6904F /* Kataribe-Viewer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607A0DC121AA50E700F6904F /* Build configuration list for PBXNativeTarget "Kataribe" */;
+			buildConfigurationList = 607A0DD721AA529200F6904F /* Build configuration list for PBXNativeTarget "Kataribe-Viewer" */;
 			buildPhases = (
-				607A0DAB21AA50E600F6904F /* Sources */,
-				607A0DAC21AA50E600F6904F /* Frameworks */,
-				607A0DAD21AA50E600F6904F /* Resources */,
+				607A0DC421AA529100F6904F /* Sources */,
+				607A0DC521AA529100F6904F /* Frameworks */,
+				607A0DC621AA529100F6904F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Kataribe;
-			productName = Kataribe;
-			productReference = 607A0DAF21AA50E600F6904F /* Kataribe.app */;
+			name = "Kataribe-Viewer";
+			productName = "Kataribe-Viewer";
+			productReference = 607A0DC821AA529100F6904F /* Kataribe-Viewer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -94,7 +94,7 @@
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Yuya Hirayama";
 				TargetAttributes = {
-					607A0DAE21AA50E600F6904F = {
+					607A0DC721AA529100F6904F = {
 						CreatedOnToolsVersion = 10.0;
 					};
 				};
@@ -112,49 +112,49 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607A0DAE21AA50E600F6904F /* Kataribe */,
+				607A0DC721AA529100F6904F /* Kataribe-Viewer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		607A0DAD21AA50E600F6904F /* Resources */ = {
+		607A0DC621AA529100F6904F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607A0DBD21AA50E700F6904F /* LaunchScreen.storyboard in Resources */,
-				607A0DBA21AA50E700F6904F /* Assets.xcassets in Resources */,
-				607A0DB821AA50E600F6904F /* Main.storyboard in Resources */,
+				607A0DD521AA529200F6904F /* LaunchScreen.storyboard in Resources */,
+				607A0DD221AA529200F6904F /* Assets.xcassets in Resources */,
+				607A0DD021AA529100F6904F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		607A0DAB21AA50E600F6904F /* Sources */ = {
+		607A0DC421AA529100F6904F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607A0DB521AA50E600F6904F /* ViewController.swift in Sources */,
-				607A0DB321AA50E600F6904F /* AppDelegate.swift in Sources */,
+				607A0DCD21AA529100F6904F /* ViewController.swift in Sources */,
+				607A0DCB21AA529100F6904F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		607A0DB621AA50E600F6904F /* Main.storyboard */ = {
+		607A0DCE21AA529100F6904F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				607A0DB721AA50E600F6904F /* Base */,
+				607A0DCF21AA529100F6904F /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		607A0DBB21AA50E700F6904F /* LaunchScreen.storyboard */ = {
+		607A0DD321AA529200F6904F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				607A0DBC21AA50E700F6904F /* Base */,
+				607A0DD421AA529200F6904F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -278,34 +278,34 @@
 			};
 			name = Release;
 		};
-		607A0DC221AA50E700F6904F /* Debug */ = {
+		607A0DD821AA529200F6904F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Kataribe/Info.plist;
+				INFOPLIST_FILE = "Kataribe-Viewer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.yura.Kataribe;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.yura.Kataribe-Viewer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		607A0DC321AA50E700F6904F /* Release */ = {
+		607A0DD921AA529200F6904F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Kataribe/Info.plist;
+				INFOPLIST_FILE = "Kataribe-Viewer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.yura.Kataribe;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.yura.Kataribe-Viewer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -324,11 +324,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607A0DC121AA50E700F6904F /* Build configuration list for PBXNativeTarget "Kataribe" */ = {
+		607A0DD721AA529200F6904F /* Build configuration list for PBXNativeTarget "Kataribe-Viewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				607A0DC221AA50E700F6904F /* Debug */,
-				607A0DC321AA50E700F6904F /* Release */,
+				607A0DD821AA529200F6904F /* Debug */,
+				607A0DD921AA529200F6904F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
