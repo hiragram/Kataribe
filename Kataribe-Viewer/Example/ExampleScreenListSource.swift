@@ -10,9 +10,9 @@ import Foundation
 import Kataribe
 
 struct ExampleScreenListSource: ScreenListSource {
-    static func screenList() -> [KataribeScreen.Type] {
+    static func builders() -> [ViewControllerBuilder] {
         return [
-            StaticContentViewController.self
+            StaticViewControllerBuilder<StaticContentViewController>.init()
         ]
     }
 }

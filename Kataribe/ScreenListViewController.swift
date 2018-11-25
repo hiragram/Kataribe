@@ -11,7 +11,7 @@ import UIKit
 private let cellIdentifier = "cell"
 
 public final class ScreenListViewController<Source: ScreenListSource>: UITableViewController {
-    private let screenTypes = Source.screenList()
+    private let builders = Source.builders()
 
     public override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,23 +24,23 @@ public final class ScreenListViewController<Source: ScreenListSource>: UITableVi
     }
 
     public override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return screenTypes.count
+        return builders.count
     }
 
     public override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath)
 
-        let screenType = screenTypes[indexPath.row]
+        let builder = builders[indexPath.row]
 
-        cell.textLabel?.text = screenType.displayName
+        cell.textLabel?.text = builder.displayName
 
         return cell
     }
 
     public override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let screenType = screenTypes[indexPath.row]
+        let builder = builders[indexPath.row]
 
-        let mock = screenType.mock()
+        let mock = builder.build()
 
         show(mock, sender: nil)
     }

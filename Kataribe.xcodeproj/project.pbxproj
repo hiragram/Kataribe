@@ -18,6 +18,8 @@
 		607A0DF321AA675900F6904F /* ScreenListSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607A0DF221AA675900F6904F /* ScreenListSource.swift */; };
 		607A0DF521AA680000F6904F /* ExampleScreenListSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607A0DF421AA680000F6904F /* ExampleScreenListSource.swift */; };
 		607A0DF921AA68AC00F6904F /* StaticContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607A0DF821AA68AC00F6904F /* StaticContentViewController.swift */; };
+		607A0DFB21AA73DF00F6904F /* ConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607A0DFA21AA73DF00F6904F /* ConfigurationViewController.swift */; };
+		607A0DFD21AA892C00F6904F /* ViewControllerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607A0DFC21AA892C00F6904F /* ViewControllerBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		607A0DF221AA675900F6904F /* ScreenListSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenListSource.swift; sourceTree = "<group>"; };
 		607A0DF421AA680000F6904F /* ExampleScreenListSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleScreenListSource.swift; sourceTree = "<group>"; };
 		607A0DF821AA68AC00F6904F /* StaticContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticContentViewController.swift; sourceTree = "<group>"; };
+		607A0DFA21AA73DF00F6904F /* ConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationViewController.swift; sourceTree = "<group>"; };
+		607A0DFC21AA892C00F6904F /* ViewControllerBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,8 @@
 				607A0DEE21AA5C0F00F6904F /* ScreenListViewController.swift */,
 				607A0DF221AA675900F6904F /* ScreenListSource.swift */,
 				607A0DF021AA5C9B00F6904F /* KataribeScreen.swift */,
+				607A0DFA21AA73DF00F6904F /* ConfigurationViewController.swift */,
+				607A0DFC21AA892C00F6904F /* ViewControllerBuilder.swift */,
 			);
 			path = Kataribe;
 			sourceTree = "<group>";
@@ -262,6 +268,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				607A0DF321AA675900F6904F /* ScreenListSource.swift in Sources */,
+				607A0DFD21AA892C00F6904F /* ViewControllerBuilder.swift in Sources */,
+				607A0DFB21AA73DF00F6904F /* ConfigurationViewController.swift in Sources */,
 				607A0DF121AA5C9B00F6904F /* KataribeScreen.swift in Sources */,
 				607A0DEF21AA5C0F00F6904F /* ScreenListViewController.swift in Sources */,
 			);

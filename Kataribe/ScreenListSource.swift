@@ -9,5 +9,5 @@
 import Foundation
 
 public protocol ScreenListSource {
-    static func screenList() -> [KataribeScreen.Type]
+    static func builders() -> [ViewControllerBuilder]
 }

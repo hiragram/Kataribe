@@ -13,3 +13,13 @@ public protocol KataribeScreen {
 
     static var displayName: String { get }
 }
+
+public protocol KataribeArgument {
+    static func `default`() -> Self
+}
+
+public protocol DynamicScreen: KataribeScreen {
+    associatedtype Argument
+
+    static func mock(argument: Argument) -> Self
+}
