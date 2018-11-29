@@ -16,6 +16,8 @@ public final class ScreenListViewController<Source: ScreenListSource>: UITableVi
     public override func viewDidLoad() {
         super.viewDidLoad()
 
+        navigationItem.backBarButtonItem = UIBarButtonItem.init(title: "", style: .plain, target: nil, action: nil)
+
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellIdentifier)
     }
 
