@@ -28,7 +28,7 @@ public struct DynamicViewControllerBuilder<ViewController: UIViewController & Dy
     }
 }
 
-public struct StaticViewControllerBuilder<ViewController: UIViewController & KataribeScreen>: ViewControllerBuilder {
+public struct StaticViewControllerBuilder<ViewController: UIViewController & StaticScreen>: ViewControllerBuilder {
 
     public init() {}
 

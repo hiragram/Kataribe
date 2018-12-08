@@ -8,7 +8,7 @@
 
 import Foundation
 
-public protocol KataribeScreen {
+public protocol StaticScreen {
     static func mock() -> UIViewController
 
     static var displayName: String { get }
